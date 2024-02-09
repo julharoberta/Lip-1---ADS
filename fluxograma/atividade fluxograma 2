@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Estudante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-07 10:30:38 "/>
+        <attribute name="created" value="RXN0dWRhbnRlO0RTTjhEU1g5QjI7MjAyNC0wMi0wNzsiMDk6NDY6MzQgIjsyODM2"/>
+        <attribute name="edited" value="RXN0dWRhbnRlO0RTTjhEU1g5QjI7MjAyNC0wMi0wNzsiMTA6MzA6MzggIjsxOzI5MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b1" type="Boolean" array="False" size=""/>
+            <declare name="b2" type="Boolean" array="False" size=""/>
+            <declare name="b3" type="Boolean" array="False" size=""/>
+            <declare name="b4" type="Boolean" array="False" size=""/>
+            <declare name="sa&#237;da1" type="Boolean" array="False" size=""/>
+            <declare name="sa&#237;da2" type="Boolean" array="False" size=""/>
+            <declare name="sa&#237;da3" type="Boolean" array="False" size=""/>
+            <declare name="sa&#237;da4" type="Boolean" array="False" size=""/>
+            <input variable="b1"/>
+            <input variable="b2"/>
+            <input variable="b3"/>
+            <input variable="b4"/>
+            <if expression="b1 == TRUE">
+                <then>
+                    <assign variable="saida1" expression="TRUE"/>
+                </then>
+                <else>
+                    <assign variable="saida1" expression="FALSE"/>
+                </else>
+            </if>
+            <if expression="b2 == TRUE">
+                <then>
+                    <assign variable="saida2" expression="TRUE"/>
+                </then>
+                <else>
+                    <assign variable="saida2" expression="FALSE"/>
+                </else>
+            </if>
+            <if expression="b3 == TRUE">
+                <then>
+                    <assign variable="saida3" expression="TRUE"/>
+                </then>
+                <else>
+                    <assign variable="saida3" expression="FALSE"/>
+                </else>
+            </if>
+            <if expression="b4 == TRUE">
+                <then>
+                    <assign variable="saida4" expression="TRUE"/>
+                </then>
+                <else>
+                    <assign variable="saida4" expression="FALSE"/>
+                </else>
+            </if>
+            <output expression="saida1" newline="True"/>
+            <output expression="saida2" newline="True"/>
+            <output expression="saida3" newline="True"/>
+            <output expression="saida4" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

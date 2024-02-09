@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Estudante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-07 09:13:16 "/>
+        <attribute name="created" value="RXN0dWRhbnRlO0RTTjhEU1g5QjI7MjAyNC0wMi0wNzsiMDc6MDQ6MzQgIjsyODI4"/>
+        <attribute name="edited" value="RXN0dWRhbnRlO0RTTjhEU1g5QjI7MjAyNC0wMi0wNzsiMDk6MTM6MTYgIjs2OzI5NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="precoTotalDeVendas" type="Real" array="False" size=""/>
+            <declare name="valorPorPeca" type="Real" array="False" size=""/>
+            <declare name="quantidade" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a Quantidade&quot;" newline="True"/>
+            <input variable="quantidade"/>
+            <output expression="&quot;Digite o Valor Por Pe&#231;a&quot;" newline="True"/>
+            <input variable="valorPorPeca"/>
+            <assign variable="precoTotalDeVendas" expression="valorPorPeca*quantidade"/>
+            <output expression="&quot;Valor Total das Vendas&quot;" newline="True"/>
+            <output expression="precoTotalDeVendas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
